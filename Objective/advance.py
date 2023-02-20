@@ -4,6 +4,7 @@ class Student(object):
     def __init__(self):
         self._score = 0
 
+# @property 可以把一个方法变成属性调用
     @property
     def score(self):
         return self._score
