@@ -45,9 +45,9 @@ class Student(object):
             return 'C'
 
 
-#############################################
-#        Inheritance and Polymorphism       #
-#############################################
+##############################################
+#        Inheritance and Polymorphism        #
+##############################################
 class Animal(object):
     def run(self):
         print('Animal is running...')
